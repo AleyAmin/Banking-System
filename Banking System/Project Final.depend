@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1684447388 source:c:\users\aleya\onedrive\desktop\project final\main.cpp
+	<iostream>
+	<ctime>
+	<fstream>
+	<iomanip>
+

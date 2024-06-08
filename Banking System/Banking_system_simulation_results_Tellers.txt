@@ -1,0 +1,12 @@
+Tellers information per day
+
+Start of working day is at 08:00 
+
+All of the following timings are in minutes
+
+-------------------------------------------
+ID  |Idle Time |Utility Time
+1   | 416      | 64    
+2   | 408      | 72    
+
+

@@ -1,0 +1,131 @@
+Customers per day
+
+Start of working day is at 08:00 
+
+All of the following timings are in the 24 hour format except the waiting time in minutes
+
+-----------------------------------------------------------------------------------------
+ID  |Arrival   |waiting |Leaving   |Service
+1   | 8  : 5   | 0      | 8  : 6   | Served
+2   | 8  : 12  | 0      | 8  : 13  | Not served
+3   | 8  : 12  | 0      | 8  : 13  | Served
+4   | 8  : 12  | 1      | 8  : 14  | Not served
+5   | 8  : 19  | 0      | 8  : 20  | Served
+6   | 8  : 23  | 0      | 8  : 24  | Served
+7   | 8  : 28  | 0      | 8  : 29  | Not served
+8   | 8  : 37  | 0      | 8  : 38  | Not served
+9   | 8  : 43  | 0      | 8  : 44  | Served
+10  | 8  : 43  | 0      | 8  : 44  | Served
+11  | 8  : 45  | 0      | 8  : 46  | Served
+12  | 8  : 45  | 0      | 8  : 46  | Not served
+13  | 8  : 47  | 0      | 8  : 48  | Not served
+14  | 9  : 2   | 0      | 9  : 3   | Served
+15  | 9  : 3   | 0      | 9  : 4   | Served
+16  | 9  : 15  | 0      | 9  : 16  | Served
+17  | 9  : 17  | 0      | 9  : 18  | Served
+18  | 9  : 22  | 0      | 9  : 23  | Not served
+19  | 9  : 25  | 0      | 9  : 26  | Served
+20  | 9  : 31  | 0      | 9  : 32  | Not served
+21  | 9  : 50  | 0      | 9  : 51  | Served
+22  | 9  : 51  | 0      | 9  : 52  | Served
+23  | 9  : 52  | 0      | 9  : 53  | Served
+24  | 9  : 53  | 0      | 9  : 54  | Served
+25  | 10 : 2   | 0      | 10 : 3   | Not served
+26  | 10 : 3   | 0      | 10 : 4   | Not served
+27  | 10 : 9   | 0      | 10 : 10  | Not served
+28  | 10 : 15  | 0      | 10 : 16  | Not served
+29  | 10 : 15  | 0      | 10 : 16  | Served
+30  | 10 : 27  | 0      | 10 : 28  | Served
+31  | 10 : 28  | 0      | 10 : 29  | Not served
+32  | 10 : 29  | 0      | 10 : 30  | Served
+33  | 10 : 33  | 0      | 10 : 34  | Served
+34  | 10 : 34  | 0      | 10 : 35  | Not served
+35  | 10 : 37  | 0      | 10 : 38  | Not served
+36  | 10 : 48  | 0      | 10 : 49  | Not served
+37  | 10 : 50  | 0      | 10 : 51  | Not served
+38  | 10 : 55  | 0      | 10 : 56  | Not served
+39  | 10 : 58  | 0      | 10 : 59  | Served
+40  | 10 : 58  | 0      | 10 : 59  | Served
+41  | 10 : 59  | 0      | 11 : 0   | Not served
+42  | 11 : 9   | 0      | 11 : 10  | Served
+43  | 11 : 12  | 0      | 11 : 13  | Not served
+44  | 11 : 12  | 0      | 11 : 13  | Not served
+45  | 11 : 17  | 0      | 11 : 18  | Not served
+46  | 11 : 24  | 0      | 11 : 25  | Served
+47  | 11 : 27  | 0      | 11 : 28  | Served
+48  | 11 : 27  | 0      | 11 : 28  | Served
+49  | 11 : 34  | 0      | 11 : 35  | Not served
+50  | 11 : 38  | 0      | 11 : 39  | Not served
+51  | 11 : 41  | 0      | 11 : 42  | Served
+52  | 11 : 41  | 0      | 11 : 42  | Not served
+53  | 11 : 41  | 1      | 11 : 43  | Served
+54  | 11 : 42  | 0      | 11 : 43  | Served
+55  | 11 : 43  | 0      | 11 : 44  | Not served
+56  | 11 : 44  | 0      | 11 : 45  | Served
+57  | 11 : 49  | 0      | 11 : 50  | Served
+58  | 11 : 50  | 0      | 11 : 51  | Served
+59  | 11 : 51  | 0      | 11 : 52  | Served
+60  | 11 : 54  | 0      | 11 : 55  | Served
+61  | 11 : 55  | 0      | 11 : 56  | Served
+62  | 12 : 0   | 0      | 12 : 1   | Not served
+63  | 12 : 2   | 0      | 12 : 3   | Not served
+64  | 12 : 2   | 0      | 12 : 3   | Not served
+65  | 12 : 8   | 0      | 12 : 9   | Not served
+66  | 12 : 11  | 0      | 12 : 12  | Served
+67  | 12 : 13  | 0      | 12 : 14  | Served
+68  | 12 : 19  | 0      | 12 : 20  | Served
+69  | 12 : 30  | 0      | 12 : 31  | Served
+70  | 12 : 44  | 0      | 12 : 45  | Served
+71  | 12 : 49  | 0      | 12 : 50  | Served
+72  | 12 : 52  | 0      | 12 : 53  | Not served
+73  | 13 : 7   | 0      | 13 : 8   | Served
+74  | 13 : 8   | 0      | 13 : 9   | Served
+75  | 13 : 9   | 0      | 13 : 10  | Served
+76  | 13 : 11  | 0      | 13 : 12  | Served
+77  | 13 : 13  | 0      | 13 : 14  | Not served
+78  | 13 : 17  | 0      | 13 : 18  | Served
+79  | 13 : 21  | 0      | 13 : 22  | Served
+80  | 13 : 25  | 0      | 13 : 26  | Served
+81  | 13 : 30  | 0      | 13 : 31  | Served
+82  | 13 : 33  | 0      | 13 : 34  | Served
+83  | 13 : 33  | 0      | 13 : 34  | Served
+84  | 13 : 34  | 0      | 13 : 35  | Served
+85  | 13 : 37  | 0      | 13 : 38  | Not served
+86  | 13 : 38  | 0      | 13 : 39  | Not served
+87  | 13 : 45  | 0      | 13 : 46  | Not served
+88  | 13 : 56  | 0      | 13 : 57  | Served
+89  | 13 : 59  | 0      | 14 : 0   | Served
+90  | 14 : 1   | 0      | 14 : 2   | Not served
+91  | 14 : 2   | 0      | 14 : 3   | Not served
+92  | 14 : 4   | 0      | 14 : 5   | Not served
+93  | 14 : 4   | 0      | 14 : 5   | Not served
+94  | 14 : 5   | 0      | 14 : 6   | Served
+95  | 14 : 6   | 0      | 14 : 7   | Not served
+96  | 14 : 8   | 0      | 14 : 9   | Not served
+97  | 14 : 11  | 0      | 14 : 12  | Not served
+98  | 14 : 11  | 0      | 14 : 12  | Not served
+99  | 14 : 14  | 0      | 14 : 15  | Served
+100 | 14 : 17  | 0      | 14 : 18  | Served
+101 | 14 : 18  | 0      | 14 : 19  | Not served
+102 | 14 : 19  | 0      | 14 : 20  | Not served
+103 | 14 : 25  | 0      | 14 : 26  | Not served
+104 | 14 : 32  | 0      | 14 : 33  | Served
+105 | 14 : 38  | 0      | 14 : 39  | Not served
+106 | 14 : 43  | 0      | 14 : 44  | Not served
+107 | 14 : 50  | 0      | 14 : 51  | Served
+108 | 14 : 52  | 0      | 14 : 53  | Served
+109 | 14 : 56  | 0      | 14 : 57  | Served
+110 | 15 : 3   | 0      | 15 : 4   | Not served
+111 | 15 : 4   | 0      | 15 : 5   | Served
+112 | 15 : 14  | 0      | 15 : 15  | Served
+113 | 15 : 18  | 0      | 15 : 19  | Not served
+114 | 15 : 21  | 0      | 15 : 22  | Not served
+115 | 15 : 22  | 0      | 15 : 23  | Served
+116 | 15 : 24  | 0      | 15 : 25  | Not served
+117 | 15 : 37  | 0      | 15 : 38  | Not served
+118 | 15 : 45  | 0      | 15 : 46  | Served
+119 | 15 : 50  | 0      | 15 : 51  | Not served
+120 | 15 : 52  | 0      | 15 : 53  | Not served
+
+
+Amount of served customers = 65 out of 120 Customers 
